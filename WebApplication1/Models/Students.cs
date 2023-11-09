@@ -8,8 +8,8 @@ namespace WebApplication1.Models
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? MiddleName { get; set; }
-        public int GroupId { get; set; }
-        public Group? Group { get; set; }
+        public int GroupsId { get; set; }
+        public Groups? Groups { get; set; }
         public bool StudentIsExist { get; set; }
     }
 }
